@@ -1,0 +1,152 @@
+html{
+height: 100%;
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+}
+
+body{
+background-color: #112857;
+background-position: center bottom, left top;
+background-repeat: no-repeat;
+font-family: ccwild;
+font-weight: normal;
+font-size: 11pt;
+margin:	0; 
+color: #ffffff;
+margin:0;
+padding:0; 
+height: 100%;
+width: 100%;
+}
+
+@font-face {
+font-family: ccwild;
+src: url(../fonts/ccwild-words-roman.woff);
+}
+
+#background{
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index:-100;
+}
+
+#bg1{
+background: url('../images/background_1.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg2{
+background: url('../images/background_2.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg3{
+background: url('../images/background_3.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg4{
+background: url('../images/background_4.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg5{
+background: url('../images/background_5.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg6{
+background: url('../images/background_6.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg7{
+background: url('../images/background_7.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg8{
+background: url('../images/background_8.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg9{
+background: url('../images/background_9.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg10{
+background: url('../images/background_10.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+#bg11{
+background: url('../images/background_11.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+
+.logo-box{
+margin: auto;
+margin-top: 15px;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;
+overflow: hidden;
+pointer-events: none;
+}
+
+.content{
+width: 80%;
+margin: auto;
+margin-top: 100px;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.navbar {
+display: flex;
+justify-content: center;
+margin: auto;
+margin-top: 522px;
+background-color: transparent;
+font-family: ccwild;
+overflow: hidden;
+}
+
+.navbar a {
+border-radius: 25px;
+backdrop-filter: blur(2px);
+min-width: 102px;
+padding: 16px 24px;
+margin: auto;
+margin-left: 5px;
+margin-right: 5px;
+background-color: #121a44a8;
+font-size: 26px;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+.navbar a:hover {
+background-color: #57608d8f;
+}
+
+/* For smaller resolutions */
+@media only screen 
+and (max-width : 1400px) {
+}
